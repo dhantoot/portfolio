@@ -1,1 +1,25 @@
 // app global css in SCSS form
+@font-face {
+    font-family: "customfont";
+    src: url("https://db.onlinewebfonts.com/t/58448bc8344e86403c7ad25b3509965f.eot");
+    src: url("https://db.onlinewebfonts.com/t/58448bc8344e86403c7ad25b3509965f.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/58448bc8344e86403c7ad25b3509965f.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/58448bc8344e86403c7ad25b3509965f.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/58448bc8344e86403c7ad25b3509965f.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/58448bc8344e86403c7ad25b3509965f.svg#Microsoft New Tai Lue")format("svg");
+  }
+  
+  // declare a class which applies it
+  .main-layout {
+    font-family: 'customfont';
+  }
+
+  @font-face {
+    font-family: 'customfont2';
+    src: url(fonts/idk.woff); // Victor Mono
+  }
+
+  @font-face {
+    font-family: 'customfont3';
+    src: url(fonts/Museo.otf);
+  }
