@@ -8,12 +8,12 @@
               <div class="text-overline text-white">About</div>
               <div class="text-h5 q-mt-sm q-mb-md text-white">Dan Vincent Tagailo</div>
               <div class="text-grey text-body q-mb-sm" style="max-width:600px;font-size: 15px;">
-                For the last 8 years Dan has been working on IT industries developing software applications using various
+                For the last 9 years Dan has been working on IT industries developing software applications using various
                 technologies for backend and frontend development.
               </div>
               <div class="text-grey text-body q-mb-sm" style="max-width:600px;font-size: 15px;">
                 He is a full stack developer responsible for the requirement analysis, UI design and integration, building
-                APIs, database design and deployment.
+                APIs with integration and unit tests, database design and deployment.
               </div>
               <div class="text-grey text-body q-mb-sm" style="max-width:600px;font-size: 15px;">
                 His experienced in working various projects using different technologies and frameworks mold his ability

@@ -33,7 +33,7 @@ export default {
 
     return {
       expanded: ref(false),
-      img: ref('cv/cv-1.PNG'),
+      img: ref('cv/ccv-1.PNG'),
       current: ref(1),
       lorem:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
@@ -42,7 +42,7 @@ export default {
   methods: {
     nextItem () {
       console.log(this.current)
-      this.img = `cv/cv-${this.current}.PNG`
+      this.img = `cv/ccv-${this.current}.PNG`
     }
   },
   beforeCreate () {
