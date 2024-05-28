@@ -4,7 +4,7 @@
       <div class="col q-pa-sm">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-            <q-img :src="img" width="90vw" style="max-width:600px;"/>
+            <!-- <q-img :src="img" width="90vw" style="max-width:600px;"/> -->
           </div>
          </div>
       </div>
@@ -33,7 +33,7 @@ export default {
 
     return {
       expanded: ref(false),
-      img: ref('cv/ccv-1.PNG'),
+      img: ref('cv2/ccv-1.PNG'),
       current: ref(1),
       lorem:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat'
@@ -42,7 +42,7 @@ export default {
   methods: {
     nextItem () {
       console.log(this.current)
-      this.img = `cv/ccv-${this.current}.PNG`
+      this.img = `cv2/ccv-${this.current}.PNG`
     }
   },
   beforeCreate () {
@@ -53,7 +53,7 @@ export default {
   },
   beforeMount () {
     console.log('beforeMount..')
-    this.img = 'cv/cv-1.PNG'
+    this.img = 'cv2/ccv-1.PNG'
   },
   mounted () {
     console.log('mounted..')
